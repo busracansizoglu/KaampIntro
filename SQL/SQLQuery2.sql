@@ -64,6 +64,7 @@ on p.ProductID = od.ProductID
 inner join Orders o
 on o.OrderID = od.OrderID --2155
 
+<<<<<<< HEAD
 -------------------------ODEV------------------
 ------------------(SQL SELCET DISTINCT)--------
 
@@ -104,6 +105,10 @@ Select * From Customers where Country='Turkey'
 --!!!MySQL, sınırlı sayıda kayıt seçmek için LIMIT yan tümcesini desteklerken, Oracle ROWNUM kullanır.
 
 Select Top 3 * from Customers
+=======
+-------------------------ODEV(SQL)--------
+
+>>>>>>> c86fd119c26f61ac6b3553f35f8769cd9edbfe87
 
 
 
